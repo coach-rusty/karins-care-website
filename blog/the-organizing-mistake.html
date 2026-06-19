@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The One Organizing Mistake Almost Every Homeowner Makes | Karin Cares</title>
+  <meta name="description" content="Karin Eagle Smith has organized dozens of homes in Surprise, AZ over 25 years. Here's the single mistake she sees every single time — and how to fix it for good.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --gold: #c9a055; --gold-light: #e8d4a0; --gold-dark: #a07830;
+      --dark: #1a1008; --dark-brown: #2a1a08; --cream: #f7f0e6;
+      --cream-dark: #ede3d0; --text-dark: #2a1a08;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Lato', sans-serif; color: var(--text-dark); background: var(--cream); }
+    nav {
+      background: rgba(26,16,8,0.97); padding: 0 40px; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    }
+    .nav-back {
+      display: flex; align-items: center; gap: 8px;
+      color: var(--gold-light); text-decoration: none;
+      font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--gold); }
+    .nav-logo { height: 48px; width: auto; display: block; }
+    .nav-phone-link {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--gold); color: var(--dark); text-decoration: none;
+      padding: 8px 18px; font-size: 0.82rem; font-weight: 700;
+      border-radius: 2px; white-space: nowrap; transition: background 0.2s;
+    }
+    .nav-phone-link:hover { background: var(--gold-light); }
+    .post-hero {
+      background:
+        radial-gradient(ellipse at 50% 0%, rgba(248,240,215,0.07) 0%, transparent 50%),
+        radial-gradient(ellipse at 30% 70%, rgba(201,160,85,0.10) 0%, transparent 50%),
+        linear-gradient(150deg, #231409 0%, #2e1c0b 40%, #110b04 100%);
+      padding: 80px 40px 72px; text-align: center;
+    }
+    .post-column {
+      display: inline-block; font-size: 0.62rem; font-weight: 700;
+      letter-spacing: 0.35em; text-transform: uppercase; color: var(--gold);
+      margin-bottom: 20px; border: 1px solid rgba(201,160,85,0.3);
+      padding: 5px 16px; border-radius: 20px;
+    }
+    .post-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 400;
+      color: white; line-height: 1.2; max-width: 780px; margin: 0 auto 20px;
+    }
+    .post-byline {
+      font-family: 'Cormorant Garamond', serif; font-style: italic;
+      font-size: 1rem; color: rgba(232,212,160,0.65);
+    }
+    .post-body { max-width: 720px; margin: 0 auto; padding: 72px 40px 80px; }
+    .post-lead {
+      font-family: 'Cormorant Garamond', serif; font-size: 1.35rem;
+      font-weight: 400; line-height: 1.7; color: var(--dark-brown);
+      margin-bottom: 40px; padding-bottom: 40px;
+      border-bottom: 1px solid rgba(201,160,85,0.25);
+    }
+    .post-body h2 {
+      font-family: 'Cormorant Garamond', serif; font-size: 1.6rem;
+      font-weight: 500; color: var(--dark-brown);
+      margin: 40px 0 14px; padding-left: 16px;
+      border-left: 3px solid var(--gold); line-height: 1.3;
+    }
+    .post-body p { font-size: 1rem; line-height: 1.8; color: #4a3520; font-weight: 300; margin-bottom: 22px; }
+    .post-body strong { font-weight: 700; color: var(--dark-brown); }
+    /* 3-question callout box */
+    .three-questions {
+      background: white; border-radius: 4px;
+      padding: 36px 32px; margin: 32px 0 36px;
+      box-shadow: 0 4px 24px rgba(42,26,8,0.09);
+      border-left: 4px solid var(--gold);
+    }
+    .three-questions h3 {
+      font-family: 'Cormorant Garamond', serif; font-size: 1.25rem;
+      color: var(--dark-brown); margin-bottom: 18px; font-weight: 500;
+    }
+    .three-questions ol {
+      padding-left: 22px; display: flex; flex-direction: column; gap: 10px;
+    }
+    .three-questions li {
+      font-size: 0.97rem; color: #4a3520; line-height: 1.65; font-weight: 400;
+    }
+    .three-questions li strong { color: var(--dark-brown); }
+    .post-cta {
+      background: linear-gradient(135deg, var(--dark-brown) 0%, #3a2510 100%);
+      border-radius: 6px; padding: 48px 40px; text-align: center;
+      margin-top: 60px; border: 1px solid rgba(201,160,85,0.2);
+    }
+    .post-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.9rem; font-weight: 400; color: white; margin-bottom: 10px; }
+    .post-cta p { font-size: 0.9rem; color: rgba(255,255,255,0.5); margin-bottom: 28px; font-weight: 300; }
+    .cta-phone {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--gold); color: var(--dark); text-decoration: none;
+      padding: 16px 32px; font-weight: 700; font-size: 0.95rem;
+      letter-spacing: 0.04em; border-radius: 2px;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 4px 24px rgba(201,160,85,0.35);
+    }
+    .cta-phone:hover { background: var(--gold-light); transform: translateY(-2px); }
+    .post-footer { background: var(--dark); padding: 36px 40px; text-align: center; }
+    .post-footer img { height: 70px; width: auto; margin: 0 auto 10px; display: block; filter: drop-shadow(0 0 10px rgba(201,160,85,0.3)); opacity: 0.9; }
+    .post-footer p { font-size: 0.7rem; color: rgba(255,255,255,0.2); letter-spacing: 0.1em; }
+    @media (max-width: 640px) {
+      nav { padding: 0 20px; }
+      .post-hero { padding: 60px 24px 56px; }
+      .post-body { padding: 48px 24px 60px; }
+      .post-cta { padding: 36px 24px; }
+      .three-questions { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-back">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      Back to Karin's Site
+    </a>
+    <img src="../images/logo-gold.png" alt="Karin's House Management" class="nav-logo">
+    <a href="tel:9289206607" class="nav-phone-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.29 6.29l1.75-1.75a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      928-920-6607
+    </a>
+  </nav>
+
+  <div class="post-hero">
+    <div class="post-column">Karin Cares &middot; Home Organization</div>
+    <h1 class="post-title">The One Organizing Mistake Almost Every Homeowner Makes</h1>
+    <p class="post-byline">By Karin Eagle Smith &nbsp;&middot;&nbsp; Surprise, AZ &nbsp;&middot;&nbsp; 25 Years Experience</p>
+  </div>
+
+  <div class="post-body">
+    <p class="post-lead">I've organized a lot of homes over 25 years. Guest rooms full of boxes that haven't been opened since the last move. Garages with no visible floor. Pantries with expired items from years ago. Closets where the rod had actually given up and collapsed. And in almost every case, the homeowner had tried to do it themselves — multiple times — and it kept coming undone. Here's why.</p>
+
+    <h2>The Mistake: Organizing Things You Should Have Let Go</h2>
+    <p>Most people start organizing by buying bins, baskets, and drawer dividers. They sort things into neat piles, find homes for everything, label what they can reach, and feel genuinely good about it. Then six months later, it's chaos again.</p>
+    <p>The reason this keeps happening isn't lack of effort or willpower. <strong>It's that you can't organize clutter. You can only move it around.</strong></p>
+    <p>The first step isn't sorting. It isn't buying containers. It's <em>editing</em> — deciding what actually belongs in your home before a single bin is purchased or a single shelf is labeled.</p>
+
+    <h2>The Three-Question Test</h2>
+    <p>Before I touch a single item in a space I'm organizing, I walk through it with my client and we ask three questions about everything:</p>
+
+    <div class="three-questions">
+      <h3>For each item, ask yourself:</h3>
+      <ol>
+        <li><strong>Do I use this regularly?</strong> Not "could I use this someday" — do I actually use it.</li>
+        <li><strong>Do I love it?</strong> Not "it was expensive" or "it was a gift" — do I genuinely want it in my home.</li>
+        <li><strong>If I needed it and couldn't find it, would I actually notice it was gone?</strong></li>
+      </ol>
+    </div>
+
+    <p>If the answer to all three is no — it leaves the house. Donate, give to someone who will use it, or let it go. This is the step most people rush past or skip entirely, and it's the reason organizing never sticks.</p>
+
+    <h2>What Organizing Actually Is</h2>
+    <p>Once you've edited — and this step genuinely takes longer than most people want it to — <em>then</em> you organize. Now you're giving permanent, logical homes to things that deserve to be in your home. Now the bins make sense. Now the labels stick. Now you can put something back in the right place because there's a right place that makes sense to you.</p>
+    <p>Organization isn't about having the right containers. It's about having the right things.</p>
+
+    <h2>The Arizona Storage Factor</h2>
+    <p>In the West Valley, many of my clients deal with a specific challenge: seasonal clutter. Holiday decorations. Pool equipment that's needed eight months a year and stored four. Monsoon gear. The winter clothing that doesn't get used much but still needs somewhere to live.</p>
+    <p>These items end up jumbled together in garages and storage rooms and create a chaos that makes everything else harder to find and manage. <strong>My recommendation: dedicate clearly zoned, labeled areas by season and category.</strong> Pool equipment in one zone. Holiday by holiday in their own boxes. Winter and summer clothing separated and clearly identified.</p>
+    <p>The goal isn't a garage that looks like a magazine photo. It's a garage where you can find anything you need in under two minutes without moving four other things to get to it.</p>
+
+    <h2>Start Small, Start Once</h2>
+    <p>Pick one space. Not the whole house — one drawer, one closet, one cabinet. Do the edit first. Remove everything. Ask the three questions. Then put back only what passed. Then organize what's left.</p>
+    <p>That's it. Do it once, do it right, and that space will stay organized because there's finally room for everything that's in it.</p>
+
+    <div class="post-cta">
+      <h3>Want Someone to Walk Through It With You?</h3>
+      <p>Room organizing is one of my favorite things to do. Call or text — we'll find a time.</p>
+      <a href="tel:9289206607" class="cta-phone">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.29 6.29l1.75-1.75a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call Karin &mdash; 928-920-6607
+      </a>
+    </div>
+  </div>
+
+  <footer class="post-footer">
+    <img src="../images/logo-gold.png" alt="Karin's House Management">
+    <p>&copy; 2026 Karin's House Management &nbsp;|&nbsp; Surprise, AZ &nbsp;|&nbsp; 928-920-6607</p>
+  </footer>
+
+</body>
+</html>
