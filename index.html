@@ -1436,6 +1436,8 @@
     @media (max-width: 1024px) {
       #hero { grid-template-columns: 1fr 38%; }
       .steps-grid { grid-template-columns: 1fr; gap: 0; }
+      .step-item { border-bottom: 1px solid var(--rule); }
+      .step-item:last-child { border-bottom: none; }
       .why-inner { grid-template-columns: 1fr; }
       .why-right { order: -1; }
       .why-photo-frame { max-width: 400px; }
@@ -1479,12 +1481,15 @@
       .pq-text { font-size: 1.25rem; line-height: 1.45; }
       .hero-eyebrow { display: none; }
       .hero-cta-secondary { display: none; }
-      .footer-area-text { font-size: 0.65rem; letter-spacing: 0.06em; line-height: 1.8; }
+      .footer-area-text { font-size: 0.82rem; letter-spacing: 0.04em; line-height: 1.7; }
 
       .stats-grid { grid-template-columns: repeat(2, 1fr); }
       .stat-item:nth-child(2) { border-right: none; }
+      .stat-item { padding: 40px 16px; }
+      .stat-label { letter-spacing: 0.1em; font-size: 0.95rem; }
 
       .blog-grid { grid-template-columns: 1fr; }
+      .blog-card { padding: 40px 24px; }
       .reviews-header { grid-template-columns: 1fr; }
 
       .mobile-call-bar { display: block; }
@@ -1496,7 +1501,10 @@
       .offer-inner { flex-direction: column; }
       #pull-quote { padding: 60px 28px; }
 
+      .why-photo-frame::before { display: none; }
+
       .footer-top { margin-bottom: 40px; padding-bottom: 40px; }
+      .footer-bottom { flex-direction: column; gap: 8px; }
       #services { padding: 60px 28px; }
       #why, #faq, #blog, #how-it-works, #reviews { padding: 60px 28px; }
     }
