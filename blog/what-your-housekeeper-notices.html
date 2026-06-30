@@ -176,6 +176,66 @@
     }
     .cta-phone:hover { background: var(--gold-light); transform: translateY(-2px); }
 
+    /* MORE POSTS */
+    .more-posts {
+      background: var(--cream-dark);
+      padding: 64px 40px;
+      text-align: center;
+    }
+    .more-posts-eyebrow {
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 32px;
+    }
+    .more-posts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .more-post-card {
+      background: white;
+      border: 1px solid rgba(201,160,85,0.2);
+      border-radius: 4px;
+      padding: 28px 24px;
+      text-decoration: none;
+      text-align: left;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      display: block;
+    }
+    .more-post-card:hover { border-color: var(--gold); box-shadow: 0 4px 20px rgba(201,160,85,0.15); }
+    .more-post-tag {
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 10px;
+    }
+    .more-post-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: var(--dark-brown);
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+    .more-post-read {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+    }
+    @media (max-width: 560px) {
+      .more-posts-grid { grid-template-columns: 1fr; }
+      .more-posts { padding: 48px 24px; }
+    }
+
     /* FOOTER */
     .post-footer {
       background: var(--dark);
@@ -245,6 +305,22 @@
       </a>
     </div>
   </div>
+
+  <section class="more-posts">
+    <div class="more-posts-eyebrow">More from Karin</div>
+    <div class="more-posts-grid">
+      <a href="how-often-to-deep-clean.html" class="more-post-card">
+        <div class="more-post-tag">Cleaning Tips</div>
+        <div class="more-post-title">How Often Should You Actually Deep Clean Each Room?</div>
+        <div class="more-post-read">Read More →</div>
+      </a>
+      <a href="the-organizing-mistake.html" class="more-post-card">
+        <div class="more-post-tag">Organizing</div>
+        <div class="more-post-title">The One Organizing Mistake That Undoes Everything</div>
+        <div class="more-post-read">Read More →</div>
+      </a>
+    </div>
+  </section>
 
   <footer class="post-footer">
     <img src="../images/logo-nav.png" alt="Karin's Cares">
